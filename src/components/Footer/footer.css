@@ -1,0 +1,39 @@
+.footer {
+  padding: 60px 0 30px 0;
+  background: var(--primary-color);
+}
+
+.footer__text {
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.735);
+  font-size: 0.9rem;
+}
+.footer__quick-links ul li {
+  background: transparent !important;
+  display: flex;
+  /* align-items: center; */
+  /* padding: 0 5px; */
+}
+.footer__quick-links ul li a {
+  color: rgba(255, 255, 255, 0.735);
+  font-size: 0.9rem;
+}
+.footer__quick-links ul li a:hover {
+  color: #ffc107;
+  transition: all 0.3s;
+}
+.footer__quick-links ul li span i {
+  padding: 0 8px;
+  color: rgba(255, 255, 255, 0.735);
+}
+.quick__links-title {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.735);
+  font-size: 0.9rem;
+  margin-top: 40px;
+  text-align: center;
+}
